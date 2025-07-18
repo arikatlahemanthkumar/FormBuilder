@@ -105,7 +105,7 @@ npm start
 ## 📹 Demo Video
 Here’s a walkthrough of the assignment and features:
 
-👉 Watch Demo on Loom
+👉 https://drive.google.com/file/d/1uaVlElc1MKsq_yPRv503FsRYlVVPdf0y/view?usp=drive_link
 
 ---
 
