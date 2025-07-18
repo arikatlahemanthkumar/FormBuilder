@@ -1,0 +1,207 @@
+.formcreate-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 1200px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fff;
+  }
+  .formcreate-left {
+    flex: 1;
+    padding: 32px;
+  }
+  .formcreate-title-row {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .formcreate-edit-icon {
+    color: #1976d2;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  .formcreate-add-btn, .formcreate-close-btn {
+    border: 1px solid #1976d2;
+    color: #1976d2;
+    background: #fff;
+    padding: 8px 24px;
+    border-radius: 4px;
+    margin: 24px 0 0 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .formcreate-close-btn {
+    margin-bottom: 20px;
+  }
+  .formcreate-input-types {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+  }
+  .formcreate-type-btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .formcreate-submit-btn, .formcreate-create-btn {
+    background: #388e3c;
+    color: #fff;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  .formcreate-create-btn {
+    margin: 24px auto 0 auto;
+    display: block;
+  }
+  .formcreate-field-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin-bottom: 12px;
+    background: #fff;
+    cursor: pointer;
+    gap: 10px;
+  }
+  .formcreate-drag {
+    margin-right: 12px;
+    cursor: grab;
+  }
+  .formcreate-label {
+    flex: 1;
+  }
+  .formcreate-field-edit {
+    color: #1976d2;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  .formcreate-field-delete {
+    color: #d32f2f;
+    cursor: pointer;
+  }
+  .formcreate-right {
+    flex: 1;
+    padding: 32px;
+    border-left: 1px solid #eee;
+  }
+  .formcreate-editor-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+  .formcreate-editor-label {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  .formcreate-editor-input {
+    width: 100%;
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 2px solid #1976d2;
+    outline: none;
+    margin-bottom: 16px;
+    background: #f9f9f9;
+    padding: 4px 0;
+  }
+  .formcreate-editor-placeholder {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 16px;
+    background: #f9f9f9;
+    padding: 4px 0;
+  }
+  .formcreate-select-editor {
+    color: #888;
+    font-size: 1rem;
+    margin-bottom: 16px;
+  } 
+  body {
+    font-family: 'Inter', Arial, sans-serif;
+  } 
+  .formcreate-fields-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  } 
+  .formcreate-section-tabs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+  .formcreate-section-tab {
+    display: flex;
+    align-items: center;
+    background: #f3f6fa;
+    border: 1px solid #bcd0ea;
+    border-radius: 20px;
+    padding: 4px 14px 4px 10px;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: background 0.2s, border 0.2s;
+  }
+  .formcreate-section-tab.active {
+    background: #1976d2;
+    color: #fff;
+    border: 1.5px solid #1976d2;
+  }
+  .formcreate-section-name {
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    color: inherit;
+    outline: none;
+    min-width: 60px;
+    max-width: 120px;
+    padding: 2px 4px;
+  }
+  .formcreate-section-tab.active .formcreate-section-name {
+    color: #fff;
+  }
+  .formcreate-add-section-btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .formcreate-add-section-btn:hover {
+    background: #1251a3;
+  }
+  .formcreate-section-remove {
+    color: #d32f2f;
+    font-size: 1.1rem;
+    margin-left: 2px;
+    margin-right: -4px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0 4px;
+    transition: background 0.2s;
+  }
+  .formcreate-section-remove:hover {
+    background: #ffeaea;
+  } 
