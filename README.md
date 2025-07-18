@@ -24,10 +24,9 @@ The goal of this application is to allow users to create, edit, view, and submit
 - Title and placeholder for each input
 - Form submission with input validations
 
-### 🎁 Bonus Features (Optional)
+### 🎁 Bonus Features 
 - Drag-and-drop to rearrange inputs during form creation/editing
-- Group inputs into sections (if implemented)
-
+- Group inputs into sections 
 ---
 
 ## 🧪 Tech Stack
@@ -44,19 +43,27 @@ The goal of this application is to allow users to create, edit, view, and submit
 
 ## 📁 Folder Structure
 
+<pre>
 project-root/
 │
-├── backend/ # Express API
-│ ├── models/ # Mongoose models
-│ ├── routes/ # Form APIs
-│ ├── controllers/ # Logic handlers
-│ └── server.js # Entry point
+├── backend/              # Express API
+│   ├── models/           # Mongoose models
+│   ├── routes/           # Form APIs
+│   ├── controllers/      # Logic handlers
+│   ├── config/           # DB config and environment
+│   └── index.js          # Entry point
 │
-├── frontend/ # React App
-│ ├── src/
-│ ├── pages/ # Home, Create, Edit, View
-│ └── App.js # App Router
-└── README.md # This file
+├── frontend/             # React App
+│   ├── public/           # Static assets
+│   ├── src/
+│   │   ├── pages/        # Home, Create, Edit, View
+│   │   ├── App.js        # App Router
+│   │   └── index.js      # Entry point
+│   ├── package.json      # Frontend dependencies
+│   └── .gitignore
+│
+└── README.md             # This file
+</pre>
 
 ---
 
@@ -77,10 +84,11 @@ cd backend
 npm install
 npm start
 ```
+
 ##.env
 
 ```
-DB=mongodb://localhost:27017/formBuilder
+DB=mongodb://localhost:27017/form-builder
 PORT=3050
 ```
 
@@ -97,7 +105,7 @@ npm start
 ## 📹 Demo Video
 Here’s a walkthrough of the assignment and features:
 
-👉 https://drive.google.com/file/d/1uaVlElc1MKsq_yPRv503FsRYlVVPdf0y/view?usp=drive_link
+👉 Watch Demo on Loom
 
 ---
 
